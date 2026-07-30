@@ -1,16 +1,54 @@
-# next-greater-power-of-2
+<div align="center">
 
-- **Solved At:** 7/30/2026, 9:45:02 PM
-- **Language:** java 8
-- **Status:** ✅ Solved & Verified on GUVI CodeKata
+# 🧩 Next Greater Power Of 2
 
-## Solution
+[![Platform](https://img.shields.io/badge/GUVI-CodeKata-0284c7?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.guvi.in/code-kata/next-greater-power-of-2/)
+[![Language](https://img.shields.io/badge/Language-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#solution)
+[![Status](https://img.shields.io/badge/Status-Passed-16a34a?style=for-the-badge&logo=githubactions&logoColor=white)](#)
+
+</div>
+
+---
+
+### 📌 Problem Overview
+
+* **Problem Name:** `Next Greater Power Of 2`
+* **Platform:** GUVI CodeKata
+* **Problem Link:** 🔗 [Open on CodeKata](https://www.guvi.in/code-kata/next-greater-power-of-2/)
+
+---
+
+### ⏱️ Submission Details
+
+| Metric | Details |
+| :--- | :--- |
+| **Status** | ✅ Solved & Passed All Testcases |
+| **Language** | `JAVA` |
+| **Solved At** | `7/30/2026, 10:06:45 PM` |
+
+---
+
+### 💻 Solution
+
 ```java
-n = int(input())
-
-power = 1
-while power <= n:
-    power *= 2
-
-print(power)
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int power = 1;
+        while(power <=N)
+        {
+            power = power * 2;
+        }
+        
+        System.out.println(power);
+    }
+}
 ```
+
+---
+
+<div align="center">
+<sub>Automated with ⚡ <b>CodeKata GitHub Sync</b></sub>
+</div>
