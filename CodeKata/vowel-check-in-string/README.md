@@ -1,25 +1,23 @@
 # vowel-check-in-string
 
-- **Solved At:** 7/30/2026, 9:48:48 PM
-- **Language:** javascript
+- **Solved At:** 7/30/2026, 9:50:04 PM
+- **Language:** python
 - **Status:** ✅ Solved & Verified on GUVI CodeKata
 
 ## Solution
-```js
-let s = prompt();
+```py
+s = input()
 
-let vowels = "aeiouAEIOU";
-let found = false;
+vowels = "aeiouAEIOU"
+found = False
 
-for (let i = 0; i < s.length; i++) {
-    if (vowels.includes(s[i])) {
-        found = true;
-        break;
-    }
-}
+for ch in s:
+    if ch in vowels:
+        found = True
+        break
 
-if (found)
-    console.log("yes");
-else
-    console.log("no");
+if found:
+    print("yes")
+else:
+    print("no")
 ```
