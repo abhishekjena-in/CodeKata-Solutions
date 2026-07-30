@@ -24,7 +24,7 @@
 | :--- | :--- |
 | **Status** | ✅ Solved & Passed All Testcases |
 | **Language** | `JAVA` |
-| **Solved At** | `7/30/2026, 9:55:10 PM` |
+| **Solved At** | `7/30/2026, 9:55:24 PM` |
 
 ---
 
